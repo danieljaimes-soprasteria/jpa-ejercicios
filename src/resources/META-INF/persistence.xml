@@ -5,7 +5,31 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
 http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
     <persistence-unit name="Planta" transaction-type="RESOURCE_LOCAL">
-        <class>com.JPAejercicios.capitulo1.entidad.Planta</class>
+        <class>com.JPAejercicios.capitulo2.entidad.Planta</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:oracle:thin:@localhost:1521:orcl"/>
+            <property name="javax.persistence.jdbc.user" value="hr"/>
+            <property name="javax.persistence.jdbc.password" value="hr"/>
+            <property name="javax.persistence.jdbc.driver"
+                      value="oracle.jdbc.driver.OracleDriver"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="Company" transaction-type="RESOURCE_LOCAL">
+        <class>com.JPAejercicios.capitulo3.entidad.Department</class>
+        <class>com.JPAejercicios.capitulo3.entidad.Employee</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:oracle:thin:@localhost:1521:orcl"/>
+            <property name="javax.persistence.jdbc.user" value="hr"/>
+            <property name="javax.persistence.jdbc.password" value="hr"/>
+            <property name="javax.persistence.jdbc.driver"
+                      value="oracle.jdbc.driver.OracleDriver"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="Location" transaction-type="RESOURCE_LOCAL">
+        <class>com.JPAejercicios.capitulo4.entidad.Country</class>
+        <class>com.JPAejercicios.capitulo4.entidad.Region</class>
         <properties>
             <property name="javax.persistence.jdbc.url"
                       value="jdbc:oracle:thin:@localhost:1521:orcl"/>

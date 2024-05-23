@@ -15,6 +15,9 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
+          <factory-entry name="Company" />
+          <factory-entry name="Location" />
+          <factory-entry name="Planta" />
           <factory-entry name="jpa-ejercicios" value="dcfef56a-a187-4297-bbe0-8b42bc72c9a2" />
         </datasource-mapping>
         <naming-strategy-map>

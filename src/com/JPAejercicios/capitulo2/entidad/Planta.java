@@ -1,4 +1,4 @@
-package com.JPAejercicios.capitulo1.entidad;
+package com.JPAejercicios.capitulo2.entidad;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

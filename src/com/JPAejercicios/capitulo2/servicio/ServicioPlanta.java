@@ -1,6 +1,6 @@
-package com.JPAejercicios.capitulo1.servicio;
+package com.JPAejercicios.capitulo2.servicio;
 
-import com.JPAejercicios.capitulo1.entidad.Planta;
+import com.JPAejercicios.capitulo2.entidad.Planta;
 
 import javax.persistence.EntityManager;
 import java.util.List;
